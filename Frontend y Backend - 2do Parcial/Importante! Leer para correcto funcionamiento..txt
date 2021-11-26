@@ -1,0 +1,9 @@
+
+Se debe de instalar composer para correcto funcionamiento y asociarlo al proyecto con el siguiente comando:
+
+composer install
+
+Ademas de tambien configurar su host local con el nombre de SPP.
+
+Probado y funcionando desde Visual Studio Code
+
