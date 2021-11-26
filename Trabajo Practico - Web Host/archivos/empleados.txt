@@ -1,0 +1,2 @@
+Nombre: Gaston - Apellido: Machaca - Dni: 1000000 - Sexo: M - Legajo: 112 - Sueldo: 20000 - Turno: Mañana - Foto: ../fotos/1000000-Machaca.gif
+Nombre: Ibai - Apellido: Llanos - Dni: 1000001 - Sexo: M - Legajo: 116 - Sueldo: 17000 - Turno: Tarde - Foto: ../fotos/1000001-Llanos.jpg

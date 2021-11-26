@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nombre
+{
+    height: 100px;
+    width: 300px;
+    background: black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 31px;
+    border-radius: 1em;
+    font-family: 'Times new Roman';
+    color: white;
+    border: 1px solid #CCC;
+}
+
+.cerrarSesion
+{
+    height: 100px;
+    width: 300px;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    padding: 38px;
+    text-align: center;
+    border-radius: 1em;
+    font-family: 'Times new Roman';
+    color: white;
+    border: 1px solid #CCC;
+}
+
+.MostrarAjax
+{
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: max-content;
+}
+
+.FormAlta
+{
+    height: 558px;
+    width: 300px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 1em;
+    font-family: 'Times new Roman';
+    color: white;
+    border: 1px solid #CCC;
+}
+
+.FormMostrar
+{
+    height: 558px;
+    width: 910px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 1em;
+    font-family: 'Times new Roman';
+    color: white;
+    border: 1px solid #CCC;
+    overflow: auto;
+}
+
+.FormMostrar table
+{
+    border-collapse: separate;
+    border-spacing: 28px 5px;
+}
+
+.FormMostrar h2
+{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.FormMostrar hr
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.FormAlta h2
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.FormAlta h4
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.FormAlta hr
+{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+

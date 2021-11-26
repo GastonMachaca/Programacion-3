@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        form
+        {
+            margin: 0 auto;
+            width: 250px;
+            padding: 1em;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+        }
+
+        h2.posicionTitulo 
+        {
+            margin-left: 330px;
+        }
+    </style>
+
+    <script src = "./javascript/funciones.js" ></script>
+
+    <title>HTML 5 &#45 Formulario Login</title>
+</head>
+<body>
+    <h2 class="posicionTitulo">Login</h2>
+
+    <form action="./backend/verificarUsuario.php" method="POST">
+        <h4>Ingreso de credenciales</h4>
+        <hr>
+        <table>
+            <tr>
+                <td>DNI:</td><td><input name="DNI" id="txtDni" type="number" size="11" min= "1000000" max= "55000000" required><span id="spanDni" style="display: none">*</span></td>
+            </tr>
+            <tr>
+                <td>Apellido:</td><td><input name="Apellido" id="txtApellido" type="text" size="21" pattern="[a-zA-Z ]{2,254}" required ><span id="spanApellido" style="display: none">*</span></td>
+            </tr>
+        </table>
+        <hr>
+
+        <table>
+            <tr>
+                <td style="position: inherit;padding-left: 310%;"><button style="background-color:white" type="reset" name="btnLimpiar">Limpiar</button></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 320%">                
+                    <input style="background-color:white" type="submit" onclick="AdministrarValidacionesLogin()" value="Enviar" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
